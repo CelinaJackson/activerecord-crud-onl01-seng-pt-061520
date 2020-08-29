@@ -28,8 +28,6 @@ def can_be_created_in_a_block(args =)
    m.title = "Home Alone" 
    m.release_date = 1990
   end
-  Movie.create do |mov|
-  end 
 end
 
 def can_get_the_first_item_in_the_database
