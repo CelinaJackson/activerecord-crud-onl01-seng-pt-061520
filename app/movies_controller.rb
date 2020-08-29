@@ -29,8 +29,6 @@ def can_be_created_in_a_block(title: "The Room", release_date: 2003 )
    m.release_date = 1990
   end
   Movie.create do |mov|
-   mov.title = "The Room"
-   move.release_date = 2003
   end 
 end
 
