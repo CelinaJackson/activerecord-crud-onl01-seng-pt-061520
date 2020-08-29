@@ -72,8 +72,8 @@ describe 'Movie' do
       it 'can be created in a block when no args are passed' do
         movie = can_be_created_in_a_block
 
-        expect(m.title).to eq("Home Alone")
-        expect(m.release_date).to eq(1990)
+        expect(movie.title).to eq("Home Alone")
+        expect(movie.release_date).to eq(1990)
       end
 
       it 'can be created in a block' do
